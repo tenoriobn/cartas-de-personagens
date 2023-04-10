@@ -9,10 +9,13 @@ const magoJulia = new Mago('Julia', 8, 'Gelo', 7, 10);
 const arqueiroBruno = new Arqueiro('Bruno', 7, 15);
 const arqueiroMagoChico = new ArqueiroMago('Chico', 7, 10, 'ar', 4, 8)
 
+// arqueiroBruno.#level = 15
 const personagens = [magoAntonio, magoJulia, arqueiroBruno, arqueiroMagoChico];
 console.log(Personagem.verificarVencedor(arqueiroBruno, magoAntonio));
 
 new PersonagemView(personagens).render()
+
+console.log(magoAntonio)
 
 // const personagemMago = new Mago('Pedra', 10, 100);
 // console.log(personagemMago)
